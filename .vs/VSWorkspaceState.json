@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\erikStore",
+    "\\erikStore\\App_Data",
+    "\\erikStore\\Models",
+    "\\erikStore\\Views",
+    "\\erikStore\\Views\\Accounts",
+    "\\erikStore\\Views\\Home",
+    "\\erikStore\\Views\\Shared"
+  ],
+  "SelectedNode": "\\erikStore\\Views\\Home\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}

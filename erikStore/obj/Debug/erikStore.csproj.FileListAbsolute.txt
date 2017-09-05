@@ -1,0 +1,32 @@
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\obj\Debug\erikStore.csprojResolveAssemblyReference.cache
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\ApplicationInsights.config
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\erikStore.dll.config
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\erikStore.dll
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\erikStore.pdb
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\Antlr3.Runtime.pdb
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\EntityFramework.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\EntityFramework.SqlServer.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\Microsoft.AI.Web.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\Microsoft.AI.WindowsServer.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\Microsoft.ApplicationInsights.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\Newtonsoft.Json.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\System.Diagnostics.DiagnosticSource.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\System.Web.Helpers.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\System.Web.Mvc.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\System.Web.Optimization.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\System.Web.Razor.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\System.Web.WebPages.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\System.Web.WebPages.Deployment.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\bin\System.Web.WebPages.Razor.xml
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\obj\Debug\erikStore.dll
+c:\users\techtonic\documents\visual studio 2017\Projects\erikStore\erikStore\obj\Debug\erikStore.pdb
+C:\erikStore\erikStore\bin\ApplicationInsights.config
+C:\erikStore\erikStore\bin\erikStore.dll.config
+C:\erikStore\erikStore\bin\erikStore.dll
+C:\erikStore\erikStore\bin\erikStore.pdb
+C:\erikStore\erikStore\obj\Debug\erikStore.dll
+C:\erikStore\erikStore\obj\Debug\erikStore.pdb
