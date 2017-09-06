@@ -86,8 +86,8 @@ textarea {
 }
 
 .categorywrap {
-    border: 1px solid red;
-    background-color: rgba(0,0,0,0.5);
+    border: 1px solid dodgerblue;
+    background-color: rgba(0,0,0,0.8);
 }
 
 .categorywrap img {
@@ -96,12 +96,17 @@ textarea {
 
 .categorywrap h2 {
     text-align: center;
-    color: red
+    color: dodgerblue;
 }
 
 .categorywrap img {
     margin: 0 auto;
     width: 100%;
+}
+
+.categorywrap a img {
+        margin: 0 auto;
+        height: 250px;
 }
 
 .categorywraplast {
@@ -144,20 +149,20 @@ textarea {
 
 /*navbar style*/
 .navbar-default {
-  background-color: black;
+  background-color: #0c0c0c;
 
 }
 .navbar-default .navbar-brand {
-  color: lightblue;
+  color: dodgerblue;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: white;
 }
 .navbar-default .navbar-text {
-  color: lightblue;
+  color: dodgerblue;
 }
 .navbar-default .navbar-nav > li > a {
-  color: lightblue;
+  color: dodgerblue;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color: white;
@@ -189,11 +194,11 @@ textarea {
 .navbar-default .navbar-link:hover {
   color: #ecdbff;
 }
-ul .nav .nav-pills .nav-stacked li a{
-    background-color: red!important;
+.nav-pills a {
+    background-color: #0c0c0c;
 }
-a {
-    background-color: black !important;
+p a {
+    background-color: #0c0c0c;
 }
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -207,5 +212,37 @@ a {
     background-color: #070707;
   }
 }
+h3 {
+    color: dodgerblue;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    
+}
+.btn-info {
+    border-color: white;
+    background-color: #0c0c0c;
+}
 
+.btn-info:hover {
+    border-color: green;
+}
 
+.text-info {
+    color: red;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.text-info:hover {
+    color: red;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.well {
+    background-color: rgba(0,0,0,0.8);
+}
+
+label {
+    color: white;
+}
+
+form {
+    background-color: rgba(0,0,0,0.8);
+}
