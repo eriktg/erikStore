@@ -149,9 +149,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\AccountsController.cs" />
+    <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\CheckoutController.cs" />
+    <Compile Include="Controllers\CustomersssssController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Controllers\ShoppingCartController.cs" />
@@ -352,10 +353,10 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Accounts\ChangePassword.cshtml" />
-    <Content Include="Views\Accounts\ChangePasswordSuccess.cshtml" />
-    <Content Include="Views\Accounts\LogOn.cshtml" />
-    <Content Include="Views\Accounts\Register.cshtml" />
+    <Content Include="Views\Customers\ChangePassword.cshtml" />
+    <Content Include="Views\Customers\ChangePasswordSuccess.cshtml" />
+    <Content Include="Views\Customers\LogOn.cshtml" />
+    <Content Include="Views\Customers\Register.cshtml" />
     <Content Include="Views\Categories\Create.cshtml" />
     <Content Include="Views\Categories\Delete.cshtml" />
     <Content Include="Views\Categories\Details.cshtml" />
@@ -371,6 +372,11 @@
     <Content Include="Views\ShoppingCart\CartSummary.cshtml" />
     <Content Include="Views\ShoppingCart\Index.cshtml" />
     <Content Include="Views\StoreFront\Index.cshtml" />
+    <Content Include="Views\Customerssss\Create.cshtml" />
+    <Content Include="Views\Customerssss\Delete.cshtml" />
+    <Content Include="Views\Customerssss\Details.cshtml" />
+    <Content Include="Views\Customerssss\Edit.cshtml" />
+    <Content Include="Views\Customerssss\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

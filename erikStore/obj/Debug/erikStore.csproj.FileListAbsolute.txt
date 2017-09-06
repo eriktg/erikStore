@@ -34,6 +34,6 @@ C:\Users\techtonic\Documents\erikStore\erikStore\bin\ApplicationInsights.config
 C:\Users\techtonic\Documents\erikStore\erikStore\bin\erikStore.dll.config
 C:\Users\techtonic\Documents\erikStore\erikStore\bin\erikStore.dll
 C:\Users\techtonic\Documents\erikStore\erikStore\bin\erikStore.pdb
-C:\Users\techtonic\Documents\erikStore\erikStore\obj\Debug\erikStore.csprojResolveAssemblyReference.cache
 C:\Users\techtonic\Documents\erikStore\erikStore\obj\Debug\erikStore.dll
 C:\Users\techtonic\Documents\erikStore\erikStore\obj\Debug\erikStore.pdb
+C:\Users\techtonic\Documents\erikStore\erikStore\obj\Debug\erikStore.csprojResolveAssemblyReference.cache
