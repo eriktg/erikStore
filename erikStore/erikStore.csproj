@@ -291,6 +291,9 @@
     <Content Include="Content\Images\Products\Sunflower seed loaf.png" />
     <Content Include="Content\Images\shoping_cart.png" />
     <Content Include="Content\Images\shoppingBG.png" />
+    <Content Include="Content\Js\bootstrap.js" />
+    <Content Include="Content\Js\bootstrap.min.js" />
+    <Content Include="Content\Js\npm.js" />
     <Content Include="Content\Js\ResponsiveSlider.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
