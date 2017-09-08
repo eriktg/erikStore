@@ -27,7 +27,7 @@
                 <ul class="nav navbar-nav">
                     <li>@{Html.RenderAction("CartSummary", "ShoppingCart");}</li>
                     <li>
-                        @if (Request.IsAuthenticated)
+                        @if (User.Identity.IsAuthenticated)
                     {
                         @Html.ActionLink("Welcome " + User.Identity.Name + "   Logout", "LogOff", "Customers")
                     }

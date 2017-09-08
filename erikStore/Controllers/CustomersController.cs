@@ -86,6 +86,14 @@ namespace erikStore.Controllers
                     MigrateShoppingCart(model.UserName);
 
                     FormsAuthentication.SetAuthCookie(model.UserName, false /* createPersistentCookie */);
+                    if (Membership.ValidateUser(model.UserName, model.Password))
+                    {
+                        FormsAuthentication.SetAuthCookie(model.UserName, false);
+                        bool isAuthenticated = Request.IsAuthenticated; // isAuthenticated is false
+                    }
+                   // RenewCurrentUser(); //Request.IsAuthenticated = true
+                    //FormsAuthentication.SetAuthCookie(model.UserName, true);
+                    var user = User.Identity.IsAuthenticated;
                     return RedirectToAction("Index", "Home");
                 }
                 else
@@ -97,7 +105,33 @@ namespace erikStore.Controllers
             // If we got this far, something failed, redisplay form
             return View(model);
         }
+        public void RenewCurrentUser()
+        {
+            System.Web.HttpCookie authCookie =
+                System.Web.HttpContext.Current.Request.Cookies[FormsAuthentication.FormsCookieName];
+            if (authCookie != null)
+            {
+                FormsAuthenticationTicket authTicket = null;
+                authTicket = FormsAuthentication.Decrypt(authCookie.Value);
 
+                if (authTicket != null && !authTicket.Expired)
+                {
+                    FormsAuthenticationTicket newAuthTicket = authTicket;
+
+                    if (FormsAuthentication.SlidingExpiration)
+                    {
+                        newAuthTicket = FormsAuthentication.RenewTicketIfOld(authTicket);
+                    }
+                    string userData = newAuthTicket.UserData;
+                    string[] roles = userData.Split(',');
+
+                    System.Web.HttpContext.Current.User =
+                        new System.Security.Principal.GenericPrincipal(new FormsIdentity(newAuthTicket), roles);
+
+                  
+                }
+            }
+        }
         [Authorize]
         public ActionResult ChangePassword()
         {
